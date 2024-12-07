@@ -1,5 +1,3 @@
-# SMART
-
 # Spatial Mask-based Adaptive Robust Training for Video Object Segmentation with Noisy Labels
 
 ## Introduction
@@ -15,6 +13,15 @@ Recent advances in video object segmentation (VOS) highlight its potential acros
 * `torchvision` corresponding to the PyTorch version
 * OpenCV (try `pip install opencv-python`)
 * Others: `pip install -r requirements.txt`
+
+### Preparation
+
+```bash
+conda  create  -n  smart  python=3.8
+source  activate  smart
+conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
+pip  install  -r  requirement.txt
+```
 
 ### Dataset
 
