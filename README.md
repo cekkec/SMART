@@ -91,13 +91,6 @@ Related projects that this paper is developed upon:
   year={2022}
 }
 
-@inproceedings{cheng2021stcn,
-  title={Rethinking Space-Time Networks with Improved Memory Coverage for Efficient Video Object Segmentation},
-  author={Cheng, Ho Kei and Tai, Yu-Wing and Tang, Chi-Keung},
-  booktitle={NeurIPS},
-  year={2021}
-}
-
 @inproceedings{xu2018youtubeVOS,
   title={Youtube-vos: A large-scale video object segmentation benchmark},
   author={Xu, Ning and Yang, Linjie and Fan, Yuchen and Yue, Dingcheng and Liang, Yuchen and Yang, Jianchao and Huang, Thomas},
