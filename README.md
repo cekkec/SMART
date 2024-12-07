@@ -52,11 +52,18 @@ SMART
 ```
 
 ### Training
-First, install the required python packages and datasets following [GETTING_STARTED.md](docs/GETTING_STARTED.md).
+To train the model with DAVIS 2017 and YouTubeVOS datasets as in existing VOS, set ```bash
+--data_pick all
+```.
+For training with the TAO dataset, set 
+```
+bash--data_pick tao
+```.
 
-For training, see [TRAINING.md](docs/TRAINING.md).
-
-For inference, see [INFERENCE.md](docs/INFERENCE.md).
+```bash
+cd SMART
+sh SMART.sh
+```
 
 ### Inference
 * DAVIS 2017:
