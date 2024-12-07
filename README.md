@@ -2,7 +2,7 @@
 
 ## Introduction
 
-![framework](docs/GETTING_STARTED.md.jpg)
+![framework](docs/SMART.png)
 
 Recent advances in video object segmentation (VOS) highlight its potential across various applications. Semi-supervised VOS aims to segment target objects in video frames based on annotations from the initial frame. Collecting a large-scale video segmentation dataset is challenging, which could induce noisy labels. However, it has been overlooked and most of the research efforts have been devoted to training VOS models by assuming the training dataset is clean. In this study, we first explore the effect of VOS models under noisy labels in the training dataset. To investigate the effect of noisy labels, we simulate the noisy annotations on DAVIS 2017 and YouTubeVOS datasets. Experiments show that the traditional training strategy is vulnerable to noisy annotations. To address this issue, we propose a novel noise-robust training method, named SMART (Spatial Mask-based Adaptive Robust Training), which is designed to train models effectively in the presence of noisy annotations. The proposed method employs two key strategies. Firstly, the model focuses on the common spatial areas from clean knowledge-based predictions and annotations. Secondly, the model is trained with adaptive balancing losses based on their reliability. Comparative experiments have demonstrated the effectiveness of our approach by outperforming other noise handling methods over various noise degrees.
 
