@@ -59,6 +59,25 @@ For training, see [TRAINING.md](docs/TRAINING.md).
 For inference, see [INFERENCE.md](docs/INFERENCE.md).
 
 ### Inference
+* DAVIS 2017:
+```bash
+python eval.py --model [path to model file] --output [where to save the output] --dataset D17 --d17_path ../DAVIS/2017 --split val
+```
+
+* YouTubeVOS 2018:
+```bash
+python eval.py --model [path to model file] --output [where to save the output] --dataset Y18 --d17_path ../YouTube2018 --split val
+```
+
+* YouTubeVOS 2019:
+```bash
+python eval.py --model [path to model file] --output [where to save the output] --dataset Y19 --d17_path ../YouTube --split val 
+```
+
+* TAO-VOS:
+```bash
+python eval.py --model [path to model file] --output [where to save the output] --dataset TAO --d17_path ../TAO_VOS --split val
+```
 
 ### Citation
 Related projects that this paper is developed upon:
