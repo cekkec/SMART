@@ -52,13 +52,8 @@ SMART
 ```
 
 ### Training
-To train the model with DAVIS 2017 and YouTubeVOS datasets as in existing VOS, set ```bash
---data_pick all
-```.
-For training with the TAO dataset, set 
-```
-bash--data_pick tao
-```.
+To train the model with DAVIS 2017 and YouTubeVOS datasets as in traditional VOS, set `--data_pick all`.  
+For training with the TAO dataset, set `--data_pick tao`.
 
 ```bash
 cd SMART
