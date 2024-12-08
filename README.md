@@ -17,12 +17,12 @@ Recent advances in video object segmentation (VOS) highlight its potential acros
 ### Preparation
 
 ```bash
-conda  create  -n  smart  python=3.8
-conda  activate  smart
+conda create -n smart python=3.8
+conda activate smart
 conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
 git clone https://github.com/cekkec/SMART.git
 cd SMART
-pip  install  -r  requirement.txt
+pip install -r requirements.txt
 ```
 
 ### Dataset
