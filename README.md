@@ -27,7 +27,6 @@ pip  install  -r  requirement.txt
 
 ```bash
 SMART
-├── BL30K
 ├── DAVIS
 │   ├── 2016
 │   │   ├── Annotations
