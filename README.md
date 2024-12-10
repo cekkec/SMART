@@ -82,17 +82,17 @@ python eval.py --model [path to model file] --output [where to save the output] 
 
 * YouTubeVOS 2018:
 ```bash
-python eval.py --model [path to model file] --output [where to save the output] --dataset Y18 --d17_path ../YouTube2018 --split val
+python eval.py --model [path to model file] --output [where to save the output] --dataset Y18 --y18_path ../YouTube2018 --split val
 ```
 
 * YouTubeVOS 2019:
 ```bash
-python eval.py --model [path to model file] --output [where to save the output] --dataset Y19 --d17_path ../YouTube --split val 
+python eval.py --model [path to model file] --output [where to save the output] --dataset Y19 --y19_path ../YouTube --split val 
 ```
 
 * TAO-VOS:
 ```bash
-python eval.py --model [path to model file] --output [where to save the output] --dataset TAO --d17_path ../TAO_VOS --split val
+python eval.py --model [path to model file] --output [where to save the output] --dataset TAO --tao_path ../TAO_VOS --split val
 ```
 
 ### Citation
