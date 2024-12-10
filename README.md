@@ -8,10 +8,9 @@ Recent advances in video object segmentation (VOS) highlight its potential acros
 
 ### Requirements
 
-* Python 3.8+
+* Python 3.9+
 * PyTorch 1.11+ (See [PyTorch](https://pytorch.org/) for installation instructions)
 * `torchvision` corresponding to the PyTorch version
-* OpenCV (try `pip install opencv-python`)
 * Others: `pip install -r requirements.txt`
 
 ### Preparation
