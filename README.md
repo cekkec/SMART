@@ -42,10 +42,16 @@ SMART
 │   ├── train
 │   ├── train_480p
 │   └── valid
-└── YouTube2018
-    ├── all_frames
-    │   └── valid_all_frames
-    └── valid
+├── YouTube2018
+│   ├── all_frames
+│   │   └── valid_all_frames
+│   └── valid
+└── TAO_VOS
+    ├── train
+    │   ├── Annotations
+    │   └── ...
+    ├── valid
+    └── Imagesets
 ```
 
 ### Noise Simulation
