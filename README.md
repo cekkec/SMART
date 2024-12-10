@@ -29,9 +29,6 @@ pip install -r requirements.txt
 ```bash
 SMART
 ├── DAVIS
-│   ├── 2016
-│   │   ├── Annotations
-│   │   └── ...
 │   └── 2017
 │       ├── test-dev
 │       │   ├── Annotations
