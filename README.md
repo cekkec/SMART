@@ -45,7 +45,6 @@ SMART
 │   ├── train
 │   ├── train_480p
 │   └── valid
-│
 └── YouTube2018
     ├── all_frames
     │   └── valid_all_frames
